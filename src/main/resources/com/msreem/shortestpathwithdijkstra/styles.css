@@ -1,0 +1,128 @@
+.dm-sans {
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.root {
+    -fx-font-family: 'Calibri', 'Times New Roman';
+    -fx-background-color: #2C2C2C;
+    -fx-font-size: 18;
+    -fx-border-color: darkgrey;
+    -fx-border-width: 3;
+}
+
+.label {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-color: #646464;
+    -fx-background-radius: 5;
+    -fx-padding: 5;
+}
+
+.button {
+    -fx-background-color: #00948b /*#0078D7*/;
+    -fx-border-radius: 12;
+    -fx-background-radius: 12;
+    -fx-font-weight: bold;
+    -fx-font-size: 22;
+    -fx-text-fill: white;
+}
+
+.button:hover {
+    -fx-background-color: #00847c;
+}
+
+.button:pressed {
+    -fx-background-color: #00746d;
+}
+
+.combo-box {
+    -fx-background-color: #3d3d3d /*#0066af*/;
+    -fx-border-color: white;
+    -fx-border-width: 2;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-text-fill: white;
+}
+
+.combo-box .list-cell {
+    -fx-text-fill: darkgrey;
+}
+
+.combo-box:hover {
+    -fx-background-color: #525252;
+}
+
+.combo-box .arrow {
+    -fx-background-color: white;
+}
+
+#MapPin .label {
+    -fx-background-color: none; -fx-text-fill: grey; -fx-font-size: 12; -fx-font-weight: normal;
+}
+
+#h1 {
+    -fx-background-color: none;
+    -fx-font-size: 80;
+    -fx-font-weight: bold;
+    -fx-text-fill: white;
+}
+
+#h2 {
+    -fx-background-color: none;
+    -fx-font-size: 145;
+    -fx-text-fill: #46c7ed;
+    -fx-font-weight: bold;
+}
+
+#h3 {
+    -fx-background-color: none;
+    -fx-font-size: 30;
+    -fx-font-style: italic;
+    -fx-text-fill: #bfbfbf;
+}
+
+#h4 {
+    -fx-font-weight: normal;
+    -fx-background-color: none;
+    -fx-font-size: 28;
+}
+
+#image-view-border {
+    -fx-border-color: white;
+    -fx-border-width: 4;
+    -fx-border-radius: 4;
+    -fx-border-style: solid;
+}
+
+#toast {
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 24;
+    -fx-background-color: #444444;
+    -fx-background-radius: 5;
+    -fx-padding: 10;
+}
+
+#pin-label {
+    -fx-text-fill: white;
+    -fx-font-size: 10;
+    -fx-background-color: #414141;
+    -fx-opacity: 0.9;
+    -fx-label-padding: -5 0 -5 0;
+}
+
+/*#pin-label:hover {*/
+/*    -fx-text-fill: white;*/
+/*    -fx-font-size: 12;*/
+/*    -fx-background-color: #303030;*/
+/*}*/
+
+
+
+
+
+
+

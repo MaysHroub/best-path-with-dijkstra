@@ -1,0 +1,222 @@
+59
+Country,Capital,Latitude,Longitude
+Jaber,Jaber,40,40
+Algeria,Algiers,36.752887,3.042048
+Australia,Canberra,-35.282,149.128684
+Austria,Vienna,48.208174,16.373819
+Bahrain,Manama,26.228516,50.58605
+Bulgaria,Sofia,42.697708,23.321868
+Canada,Ottawa,45.42153,-75.697193
+China,Beijing,39.904211,116.407395
+Colombia,Bogota,4.710989,-74.072092
+Cyprus,Nicosia,35.185566,33.382276
+Denmark,Copenhagen,55.676097,12.568337
+Egypt,Cairo,30.04442,31.235712
+Finland,Helsinki,60.173324,24.941025
+France,Paris,48.856614,2.352222
+Germany,Berlin,52.520007,13.404954
+Greece,Athens,37.983917,23.72936
+Hungary,Budapest,47.497912,19.040235
+Iceland,Reykjavík,64.126521,-21.817439
+India,New Delhi,28.613939,77.209021
+Indonesia,Jakarta,-6.208763,106.845599
+Iran,Tehran,35.689198,51.388974
+Iraq,Baghdad,33.312806,44.361488
+Ireland,Dublin,53.349805,-6.26031
+Italy,Rome,41.902784,12.496366
+Japan,Tokyo,35.709026,139.731992
+Jordan,Amman,31.956578,35.945695
+Kuwait,Kuwait City,29.375859,47.977405
+Lebanon,Beirut,33.888629,35.495479
+Libya,Tripoli,32.887209,13.191338
+Lithuania,Vilnius,54.687156,25.279651
+Malaysia,Kuala Lumpur,3.139003,101.686855
+Malta,Valletta,35.898909,14.514553
+Mexico,Mexico City,19.432608,-99.133208
+Mongolia,Ulaanbaatar,47.886399,106.905744
+Morocco,Rabat,33.97159,-6.849813
+Nepal,Kathmandu,27.717245,85.323961
+Netherlands,Amsterdam,52.370216,4.895168
+New Zealand,Wellington,-41.28646,174.776236
+Niger,Niamey,13.511596,2.125385
+Norway,Oslo,59.913869,10.752245
+Oman,Muscat,23.58589,58.405923
+Pakistan,Islamabad,33.729388,73.093146
+Poland,Warsaw,52.229676,21.012229
+Portugal,Lisbon,38.722252,-9.139337
+Qatar,Doha,25.285447,51.53104
+Romania,Bucharest,44.426767,26.102538
+Saudi Arabia,Riyadh,24.749403,46.902838
+Senegal,Dakar,14.764504,-17.366029
+Singapore,Singapore,1.280095,103.850949
+South Korea,Seoul,37.566535,126.977969
+Spain,Madrid,40.416775,-3.70379
+Sweden,Stockholm,59.329323,18.068581
+Switzerland,Bern,46.947974,7.447447
+Thailand,Bangkok,13.756331,100.501765
+Tunisia,Tunis,36.806495,10.181532
+Turkey,Ankara,39.933364,32.859742
+United Arab Emirates,Abu Dhabi,24.299174,54.697277
+United Kingdom,London,51.507351,-0.127758
+United States,Washington DC,38.907192,-77.036871
+
+157
+On Jan 4th 2025, One-way, 1 adult, Economy
+Capital1,Capital2,Time(minutes),Price($)
+London,Paris,75,89
+Jaber,London,340,540
+Paris,Berlin,110,93
+Berlin,Warsaw,75,183
+Beijing,Seoul,120,76
+Seoul,Tokyo,165,224
+Tokyo,Singapore,605,409
+Singapore,Jakarta,110,166
+Bangkok,Kuala Lumpur,130,149
+Paris,Madrid,125,80
+Madrid,Lisbon,90,63
+Berlin,Vienna,75,340
+Vienna,Budapest,55,223
+Budapest,Bucharest,80,71
+Bucharest,Sofia,285,224
+Sofia,Athens,75,161
+Athens,Ankara,500,84
+Ankara,Tehran,345,93
+Tehran,Baghdad,540,685
+Baghdad,Amman,110,243
+Amman,Cairo,90,219
+Cairo,Riyadh,155,156
+Riyadh,Abu Dhabi,210,165
+Abu Dhabi,Doha,65,324
+Doha,Kuwait City,245,198
+Kuwait City,Manama,65,124
+London,Dublin,75,19
+Oslo,Stockholm,70,66
+Stockholm,Helsinki,55,67
+Warsaw,Vilnius,70,179
+Rome,Athens,120,159
+Athens,Nicosia,250,85
+Nicosia,Beirut,870,159
+Beirut,Cairo,90,194
+Cairo,Tripoli,185,211
+Tunis,Algiers,85,114
+Algiers,Rabat,420,381
+Rabat,Madrid,100,206
+Madrid,Paris,115,242
+Paris,Amsterdam,80,258
+Amsterdam,Copenhagen,80,169
+Copenhagen,Oslo,75,80
+Oslo,Reykjavík,180,183
+Tokyo,Wellington,785,1025
+Wellington,Canberra,435,462
+Jakarta,Bangkok,210,86
+Bangkok,New Delhi,285,250
+New Delhi,Islamabad,585,1192
+Islamabad,Tehran,535,484
+Stockholm,Berlin,250,197
+Berlin,Amsterdam,85,94
+Amsterdam,London,85,129
+London,Washington DC,690,1241
+Washington DC,Mexico City,310,387
+Mexico City,Bogota,270,175
+Bogota,Washington DC,330,624
+Washington DC,London,450,466
+London,Reykjavík,190,97
+Paris,Rome,125,94
+Rome,Valletta,95,58
+Valletta,Tripoli,60,230
+Cairo,Muscat,220,218
+Muscat,Abu Dhabi,70,85
+New Delhi,Bangkok,250,152
+Beijing,Ulaanbaatar,140,284
+Tehran,Riyadh,230,483
+Riyadh,Cairo,185,98
+Cairo,Athens,125,200
+Athens,Rome,125,172
+Rome,Madrid,155,110
+Lisbon,Dakar,255,624
+Dakar,Niamey,325,630
+Niamey,Cairo,865,607
+Washington DC,Ottawa,100,413
+New Delhi,Singapore,340,412
+Singapore,Tokyo,410,335
+Rome,Cairo,195,271
+Cairo,Abu Dhabi,190,359
+Abu Dhabi,New Delhi,215,198
+New Delhi,Beijing,590,434
+Beijing,Tokyo,195,420
+Paris,Algiers,145,88
+Algiers,Cairo,225,186
+Tehran,Islamabad,610,340
+Islamabad,New Delhi,1275,434
+Bangkok,Singapore,150,123
+Jakarta,Canberra,930,514
+Tehran,Abu Dhabi,280,680
+Abu Dhabi,Singapore,670,415
+Bangkok,Tokyo,335,687
+London,Madrid,150,26
+Madrid,Rabat,100,72
+Rabat,Cairo,715,439
+Tokyo,Seoul,165,62
+Seoul,Beijing,130,78
+Berlin,Paris,115,104
+Paris,London,70,100
+Abu Dhabi,Islamabad,190,142
+Canberra,Wellington,415,383
+Paris,Vienna,115,44
+Vienna,Warsaw,80,34
+Amsterdam,Berlin,85,87
+Athens,Sofia,80,286
+Sofia,Bucharest,1395,127
+Bucharest,Warsaw,115,320
+Lisbon,Rabat,620,68
+Rabat,Algiers,415,533
+Algiers,Tunis,85,100
+Tunis,Cairo,180,208
+Cairo,Amman,75,222
+Amman,Baghdad,95,506
+Baghdad,Tehran,1015,289
+Algiers,Vienna,150,246
+Canberra,Jakarta,420,350
+Sofia,Nicosia,120,150
+Ottawa,Helsinki,480,600
+Bern,Stockholm,150,200
+Vilnius,Warsaw,60,100
+Bern,Cairo,240,300
+Riyadh,Muscat,105,180
+Beirut,Manama,150,220
+Dakar,Lisbon,240,350
+Paris,Budapest,135,180
+Jakarta,Kuala Lumpur,120,100
+Tripoli,Tunis,60,120
+Amman,Kuwait City,120,150
+Kathmandu,New Delhi,90,120
+Niamey,Dakar,180,250
+Dublin,London,75,80
+Manama,Doha,60,100
+Helsinki,Copenhagen,90,150
+Singapore,Bangkok,145,200
+Bern,Vienna,90,150
+Niamey,Tunis,240,300
+Ulaanbaatar,Tokyo,240,400
+Muscat,Rabat,480,600
+Muscat,Athens,360,450
+Tunis,Muscat,420,550
+Warsaw,Berlin,90,120
+Nicosia,Ottawa,720,800
+Amman,Riyadh,120,200
+Copenhagen,Bern,120,180
+Ottawa,Niamey,600,700
+Vilnius,Amsterdam,120,150
+Wellington,Vilnius,1440,1200
+Abu Dhabi,Vilnius,360,400
+Kuala Lumpur,Athens,660,700
+Lisbon,Madrid,75,100
+Stockholm,Oslo,60,80
+Kuala Lumpur,Jakarta,120,100
+Valletta,Sofia,120,150
+Algiers,Valletta,90,120
+Kathmandu,Budapest,480,500
+Kuala Lumpur,Kathmandu,240,300
+Bern,Berlin,90,150
+Washington DC,Ankara,200,340
+Ankara,Tokyo,130,250
