@@ -29,8 +29,7 @@ public class DijkstraLogic {
         initializeTable(source, index);
         while (true) {
             Vertex v = getMinimumUnvisitedVertex(index);
-            if (v == null) break;
-            if (v.equals(target)) break;
+            if (v == null || v.equals(target)) break;
             int currIdx = v.getIndex();
             table[currIdx].setVisited(true);
 
