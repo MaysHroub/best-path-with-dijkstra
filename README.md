@@ -43,7 +43,8 @@ latitude & longitude are converted to x/y positions on the map using the followi
 ### Distance Calculation
 The distance between two cities is computed using:
 
-**` acos( sin(lat1)*sin(lat2) + cos(lat1)*cos(lat2)*cos(lon2-lon1) ) * EARTH_RADIUS_KM `** , where `EARTH_RADIUS_KM` = 6371.
+    acos( sin(lat1)*sin(lat2) + cos(lat1)*cos(lat2)*cos(lon2-lon1) ) * EARTH_RADIUS_KM 
+where `EARTH_RADIUS_KM` = 6371.
 
 Note: Longitude and Latitude values must be converted to radians first.
 
