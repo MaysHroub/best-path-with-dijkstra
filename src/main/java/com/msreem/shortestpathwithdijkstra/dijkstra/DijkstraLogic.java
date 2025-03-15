@@ -24,7 +24,7 @@ public class DijkstraLogic {
     }
 
     // Initialize the table given source and target vertices, and filter
-    public void dijkstra(Vertex source, Vertex target, int index) {
+    public void run(Vertex source, Vertex target, int index) {
         this.target = target;
         initializeTable(source, index);
         while (true) {

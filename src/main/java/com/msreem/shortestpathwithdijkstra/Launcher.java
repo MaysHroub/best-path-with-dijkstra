@@ -25,7 +25,6 @@ import javafx.stage.Stage;
 
 import java.io.File;
 import java.io.FileNotFoundException;
-import java.net.URISyntaxException;
 
 import static com.msreem.shortestpathwithdijkstra.filter.Filter.*;
 
@@ -359,7 +358,7 @@ public class Launcher extends Application {
         if (srcPin == null || targetPin == null) return;
 
         String filter = filterCB.getSelectionModel().getSelectedItem();
-        dijkstra.dijkstra(srcPin.getVertex(), targetPin.getVertex(), mapWithIndex(filter));
+        dijkstra.run(srcPin.getVertex(), targetPin.getVertex(), mapWithIndex(filter));
 
         LinkedList<Vertex> path = dijkstra.getPath();
         if (path.isEmpty()) {
