@@ -32,7 +32,7 @@ import static com.msreem.shortestpathwithdijkstra.filter.Filter.*;
 public class Launcher extends Application {
 
     private static final int SOURCE = 0, TARGET = 1;
-    private static final double MAP_WIDTH = 920, MAP_HEIGHT = 480;
+    private static final double MAP_WIDTH = 920, MAP_HEIGHT = 520;
 
     private int turn;
 
@@ -106,13 +106,16 @@ public class Launcher extends Application {
                     new FileChooser.ExtensionFilter("Text Files", "*.txt"),
                     new FileChooser.ExtensionFilter("CSV Files", "*.csv")
             );
-//            File selectedFile = fileChooser.showOpenDialog(stage);
-            File selectedFile = null;
-            try {
-                selectedFile = new File(getClass().getResource("/com/msreem/shortestpathwithdijkstra/data.txt").toURI());
-            } catch (URISyntaxException ex) {
-                throw new RuntimeException(ex);
-            }
+            File selectedFile = fileChooser.showOpenDialog(stage);
+
+//            For testing purposes
+//            File selectedFile = null;
+//            try {
+//                selectedFile = new File(getClass().getResource("/com/msreem/shortestpathwithdijkstra/data.txt").toURI());
+//            } catch (URISyntaxException ex) {
+//                throw new RuntimeException(ex);
+//            }
+
             if (selectedFile == null) {
                 System.out.println("No File Selected");
                 return;
@@ -240,8 +243,8 @@ public class Launcher extends Application {
         upperRightGP.setHgap(15);
         upperRightGP.setVgap(10);
         Label srcL = new Label("Source"), targetL = new Label("Target");
-//        srcL.setStyle("-fx-background-color: #49bcff;");
-//        targetL.setStyle("-fx-background-color: #ff7070;");
+        srcL.setStyle("-fx-background-color: #49bcff;");
+        targetL.setStyle("-fx-background-color: #43c739;");
         upperRightGP.add(srcL, 0, 0);
         upperRightGP.add(targetL, 0, 1);
         upperRightGP.add(new Label("Filter   "), 0, 2);

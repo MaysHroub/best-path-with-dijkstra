@@ -62,7 +62,7 @@ United States,Washington DC,38.907192,-77.036871
 
 157
 On Jan 4th 2025, One-way, 1 adult, Economy
-Capital1,Capital2,Time(minutes),Price($)
+Source,Destination,Time(minutes),Price($)
 London,Paris,75,89
 Jaber,London,340,540
 Paris,Berlin,110,93
